@@ -9,28 +9,31 @@
 </head>
 <body>
     <!--conteniore principale/mobile first-->
-    <div class="container-sm">
+    <div class="container-sm text-white">
 
-        <!--titolo-->
-        <h1>Bootstrap 5 Responsive Grid</h1>
+        <!--header-->
+        <header>
+            <!--titolo-->
+            <h1 class="text-center text-dark">Bootstrap 5 Responsive Grid</h1>
 
-        <!--sottotitolo-->
-        <h6>Layout a griglia con diversi breakpoint (sm, md, lg).</h6>
+            <!--sottotitolo-->
+            <h6 class="text-center text-secondary">Layout a griglia con diversi breakpoint (sm, md, lg).</h6>
+        </header>
 
         <!--prima colonna-->
-        <div class="row mb-4">
-            <div class="col-sm col-md-6 col-lg-4 bg-light">
-                <h2>Colonna 1</h2>
-                <p>Larghezza intera su dispositivi piccoli, metà larghezza su dispositivi medi è un terzo su dispositivi grandi.</p>
+        <div class="row mt-4 mb-4">
+            <div class="col-sm-12 col-md-6 col-lg-4 bg-light">
+                <h2 class="text-dark">Colonna 1</h2>
+                <p class="text-secondary">Larghezza intera su dispositivi piccoli, metà larghezza su dispositivi medi è un terzo su dispositivi grandi.</p>
             </div>
-            
-        <!--seconda colonna-->
-            <div class="col-sm col-md-6 col-lg-8 bg-secondary">
+        
+            <!--seconda colonna-->
+            <div class="col-sm-12 col-md-6 col-lg-8 bg-secondary">
                 <h2>Colonna 2</h2>
                 <p>Larghezza intera su dispositivi piccoli, metà larghezza su dispositivi medi è un terzo su dispositivi grandi.</p>
             </div>
-        </div>
-
+        </div>  
+        
         <div class="row mb-4">
             <!--colonna blu-->
             <div class="col-sm-6 col-md-4 bg-primary">
@@ -72,8 +75,8 @@
 
             <!--colonna chiara-->
             <div class="col-sm-6 col-md-3 bg-light">
-                <h2>Colonna 4</h2>
-                <p>Metà larghezza su dispositivi piccoli e un terzo su dispositivi medi e più grandi.</p>
+                <h2 class="text-dark">Colonna 4</h2>
+                <p class="text-secondary">Metà larghezza su dispositivi piccoli e un terzo su dispositivi medi e più grandi.</p>
             </div>
         </div>
     </div>
